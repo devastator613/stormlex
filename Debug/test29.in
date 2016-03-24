@@ -1,0 +1,32 @@
+program project1;
+uses math;
+var t : text;
+  N,L,i,Height,MinTax : integer;
+  Rests,Taxs: array of integer;
+ 
+begin
+  Assign(t,'input.txt');
+  Reset(t);
+  Read(t,N,L);
+  SetLength(Rests,L);
+  SetLength(Taxs,L);
+  for i:=1 to N do begin
+    Read(t,Height);
+    Inc(Rests[Height mod L]);
+  end;
+  Close(t);
+ 
+  for i:=0 to L-1 do
+    Taxs[0]+=Rests[i]*i;
+  for i:=1 to L do
+    Taxs[i]:=Taxs[i-1] + n - L*Rests[L-i];
+  MinTax:=minvalue(Taxs);
+  Assign(t,'output.txt');
+  Rewrite(t);
+  for i:=0 to L-1 do
+    if Taxs[i]=MinTax then begin
+    WriteLn(t,i);
+    Break;
+    end;
+  Close(t);
+end.

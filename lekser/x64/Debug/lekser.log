@@ -1,0 +1,17 @@
+﻿Сборка начата 12.10.2015 10:13:36.
+     1>Проект "F:\lekser\lekser\lekser.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt parser.cpp
+         parser.cpp
+     1>f:\lekser\lekser\parser.cpp(28): warning C4715: f: значение возвращается не при всех путях выполнения
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\lekser\x64\Debug\lekser.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\lekser\x64\Debug\lekser.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\lekser\x64\Debug\lekser.lib" /MACHINE:X64 x64\Debug\generate.obj
+         x64\Debug\main.obj
+         x64\Debug\leckser.obj
+         x64\Debug\parser.obj
+         lekser.vcxproj -> F:\lekser\x64\Debug\lekser.exe
+     1>Сборка проекта "F:\lekser\lekser\lekser.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:06.48

@@ -1,0 +1,4 @@
+1	1	ident	identifier
+1	12	real	132.12
+1	46	integer	123
+2	1	string	asd
